@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Device\System">
+      <UniqueIdentifier>{1722c7c3-3e81-4bc0-ba7a-0f5fa5fd8fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ゲーム\Scene">
+      <UniqueIdentifier>{261fa52c-16ff-49ba-bea8-d48fbbbf56ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム\Actor">
+      <UniqueIdentifier>{f2acbe6a-74f8-4259-adb9-1dd2b3ffc69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム\Manager">
+      <UniqueIdentifier>{c076225b-af46-414e-a52d-77ae5030058e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲーム\Map">
+      <UniqueIdentifier>{2fcca07d-8b00-44da-8d83-fb990fc6ea4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Def">
+      <UniqueIdentifier>{5ac685de-d4b5-4cb6-af73-f81cff81ab9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="order">
+      <UniqueIdentifier>{e6e69bbc-58fb-463b-98fb-7efd9e6867aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Device\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Device\System</Filter>
+    </ClCompile>
+    <ClCompile Include="texBMP.cpp">
+      <Filter>Device\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Device\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Device\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>order</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ゲーム\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ゲーム\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletShotEnemy.cpp">
+      <Filter>ゲーム\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEnemy.cpp">
+      <Filter>ゲーム\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>ゲーム\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>ゲーム\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>ゲーム\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Device\System</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationController.cpp">
+      <Filter>Device\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Course.cpp">
+      <Filter>ゲーム\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Device\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Device\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Parts.cpp">
+      <Filter>ゲーム\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ゲーム\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>ゲーム\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ゲーム\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="End.cpp">
+      <Filter>ゲーム\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearEnd.cpp">
+      <Filter>ゲーム\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio.h">
+      <Filter>Device\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Device\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TexBMP.h">
+      <Filter>Device\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Device\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Device\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>ゲーム\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>order</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Def</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ゲーム\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ゲーム\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletShotEnemy.h">
+      <Filter>ゲーム\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEnemy.h">
+      <Filter>ゲーム\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>ゲーム\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>ゲーム\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>ゲーム\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Device\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationController.h">
+      <Filter>Device\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Course.h">
+      <Filter>ゲーム\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Device\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Device\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Parts.h">
+      <Filter>ゲーム\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ゲーム\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>ゲーム\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneType.h">
+      <Filter>ゲーム\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ゲーム\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="End.h">
+      <Filter>ゲーム\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearEnd.h">
+      <Filter>ゲーム\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

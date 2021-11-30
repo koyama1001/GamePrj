@@ -1,0 +1,21 @@
+﻿Ball.obj : error LNK2019: 未解決の外部シンボル __imp_glutSolidSphere が関数 "public: void __cdecl Ball::Draw(void)" (?Draw@Ball@@QEAAXXZ) で参照されました。
+Font.obj : error LNK2019: 未解決の外部シンボル __imp_glutStrokeCharacter が関数 "void __cdecl FontDraw(char const *,...)" (?FontDraw@@YAXPEBDZZ) で参照されました。
+Font.obj : error LNK2019: 未解決の外部シンボル __imp_glutStrokeWidth が関数 "float __cdecl FontGetWidth(int)" (?FontGetWidth@@YAMH@Z) で参照されました。
+Font.obj : error LNK2019: 未解決の外部シンボル __imp_glutStrokeLength が関数 "float __cdecl FontGetLength(unsigned char const *)" (?FontGetLength@@YAMPEBE@Z) で参照されました。
+Keyboard.obj : error LNK2019: 未解決の外部シンボル __imp_glutKeyboardFunc が関数 "public: static int __cdecl Keyboard::Init(void)" (?Init@Keyboard@@SAHXZ) で参照されました。
+Keyboard.obj : error LNK2019: 未解決の外部シンボル __imp_glutKeyboardUpFunc が関数 "public: static int __cdecl Keyboard::Init(void)" (?Init@Keyboard@@SAHXZ) で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp___glutInitWithExit が関数 glutInit_ATEXIT_HACK で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutInitDisplayMode が関数 main で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutInitWindowPosition が関数 main で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutInitWindowSize が関数 main で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutMainLoop が関数 main で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp___glutCreateWindowWithExit が関数 glutCreateWindow_ATEXIT_HACK で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutPostRedisplay が関数 "void __cdecl Idle(void)" (?Idle@@YAXXZ) で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutSwapBuffers が関数 "void __cdecl display(void)" (?display@@YAXXZ) で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutDisplayFunc が関数 main で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutReshapeFunc が関数 main で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutIdleFunc が関数 main で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutTimerFunc が関数 "void __cdecl Timer(int)" (?Timer@@YAXH@Z) で参照されました。
+Main.obj : error LNK2019: 未解決の外部シンボル __imp_glutIgnoreKeyRepeat が関数 main で参照されました。
+glut32.lib : warning LNK4272: ライブラリのコンピューターの種類 'x86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Users\K017A2037\Desktop\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 19 件の未解決の外部参照
